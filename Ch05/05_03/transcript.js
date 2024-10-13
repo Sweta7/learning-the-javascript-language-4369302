@@ -17,8 +17,8 @@ mySet2.has(3); // true
 mySet2.has(12); // false
 
 // For...of loop iteration works
-for (let item of mySet2) {
-  console.log('mySet contains', item);
+for (let item in mySet2) {
+  console.log("mySet contains", mySet2[item]);
 }
 
 // This object is a bird

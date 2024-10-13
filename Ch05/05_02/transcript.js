@@ -28,9 +28,11 @@ var pages = {
   fourth: "JavaScript Playground",
   fifth: "Blog",
 };
+
 for (var p in pages) {
   if (pages.hasOwnProperty(p)) {
     console.log(p, pages[p]);
+    console.log(p);
   }
 }
 
